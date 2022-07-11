@@ -172,5 +172,5 @@ int main()
 
     CloseConnection();
 
-    return 0
+    return 0;
 }
