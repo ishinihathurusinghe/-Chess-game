@@ -108,7 +108,7 @@ int main()
                 if (e.key.code == Keyboard::BackSpace)
                 { if (position.length()>6) position.erase(position.length()-6,5); loadPosition();}
 
-            /////drag and drop///////
+           
             if (e.type == Event::MouseButtonPressed)
                 if (e.key.code == Mouse::Left)
                   for(int i=0;i<32;i++)
