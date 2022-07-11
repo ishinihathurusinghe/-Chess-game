@@ -6,7 +6,7 @@ using namespace sf;
 int size = 56;
 Vector2f offset(28,28);
 
-Sprite f[32]; //figures
+Sprite f[32]; 
 std::string position="";
 
 int board[8][8] = 
