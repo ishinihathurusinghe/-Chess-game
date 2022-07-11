@@ -161,7 +161,7 @@ int main()
 
         if (isMove) f[n].setPosition(pos.x-dx,pos.y-dy);
 
-    ////// draw  ///////
+    
     window.clear();
     window.draw(sBoard);
     for(int i=0;i<32;i++) f[i].move(offset);
