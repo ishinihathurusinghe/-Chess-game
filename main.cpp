@@ -45,7 +45,7 @@ void move(std::string str)
     for(int i=0;i<32;i++)
      if (f[i].getPosition()==oldPos) f[i].setPosition(newPos);
 
-    //castling       //if the king didn't move
+   
     if (str=="e1g1") if (position.find("e1")==-1) move("h1f1"); 
     if (str=="e8g8") if (position.find("e8")==-1) move("h8f8");
     if (str=="e1c1") if (position.find("e1")==-1) move("a1d1");
