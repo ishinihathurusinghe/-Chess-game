@@ -133,7 +133,7 @@ int main()
                  }                       
         }
 
-       //comp move
+       
        if (Keyboard::isKeyPressed(Keyboard::Space))
        {
          str =  getNextMove(position);
