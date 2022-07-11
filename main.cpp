@@ -103,7 +103,7 @@ int main()
             if (e.type == Event::Closed)
                 window.close();
 
-            ////move back//////
+           
             if (e.type == Event::KeyPressed)
                 if (e.key.code == Keyboard::BackSpace)
                 { if (position.length()>6) position.erase(position.length()-6,5); loadPosition();}
