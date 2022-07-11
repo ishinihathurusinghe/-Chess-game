@@ -143,7 +143,7 @@ int main()
          
          for(int i=0;i<32;i++) if (f[i].getPosition()==oldPos) n=i;
          
-         /////animation///////
+         
          for(int k=0;k<50;k++)
           {
             Vector2f p = newPos - oldPos;
